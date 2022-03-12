@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #8052ec,
+        #d161ff
+    );
+}
+
+#bgVideo{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.clock{
+    width: 800px;
+    height: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clock div{
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo', sans-serif;
+    font-size: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    letter-spacing: 3px;
+}
+
+.clock span{
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
